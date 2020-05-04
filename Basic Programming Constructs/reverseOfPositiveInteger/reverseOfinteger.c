@@ -1,3 +1,8 @@
+/*
+Example 1
+	Input = 123
+	Output = 321
+*/
 #include <stdio.h>
 
 int main()

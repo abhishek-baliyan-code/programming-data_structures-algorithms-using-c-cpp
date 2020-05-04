@@ -1,3 +1,14 @@
+/*
+Example 1
+	Input = 1233
+	Processing = 1 + 2 + 3 + 3 = 9
+	Output = 9
+
+Example 2
+	Input = 1234
+	Processing = 1 + 2 + 3 + 4 = 10 => 1 + 0 = 1
+	Output = 1
+*/
 #include <stdio.h>
 
 int main()
