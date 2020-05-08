@@ -5,6 +5,7 @@ int main(void)
 	int m = 26, n = 47, *ptr = NULL;
 	ptr = &m;
 	printf("\n");
+	// (void *)&m - typecasting. Now this is generic pointer referring to m address.
 	printf("m has the value %d and is stored at %p \n", m, (void *)&m);
 	printf("n has the value %d and is stored at %p \n", n, (void *)&n);
 	printf("ptr has the value %p and is stored at %p \n", ptr, (void *)&ptr);
