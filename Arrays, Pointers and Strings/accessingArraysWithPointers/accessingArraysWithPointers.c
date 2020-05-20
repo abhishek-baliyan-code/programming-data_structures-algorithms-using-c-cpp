@@ -13,8 +13,10 @@ int main(void)
 
     for (i = 0; i < 6; i++)
     {
-        printf("myArray[%d] = %d\n", i, myArray[i]);
-        printf("Contents of Address ptr + %d = %d\n", i, *(ptr + i));
+        printf("myArray[%d] = %d ", i, myArray[i]);
+        // printf("Contents of Address ptr + %d = %d\n", i, *(ptr + i));
+        // printf("ptr + %d = %d\n", i, *ptr++);
+        printf("ptr + %d = %d\n", i, *(++ptr));
     }
     return 0;
 }
