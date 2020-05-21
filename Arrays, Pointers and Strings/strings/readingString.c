@@ -15,7 +15,9 @@ int main(void)
     printf("%s%s", A_string, E_string);
 
     /*
-    scanf will read characters until space comes.
+    scanf will read string until space comes and put them in A_string. 
+    Then again read string after the space and read it until next space come. 
+    Then put in E_string. Then stop.
     */
     
     return 0;

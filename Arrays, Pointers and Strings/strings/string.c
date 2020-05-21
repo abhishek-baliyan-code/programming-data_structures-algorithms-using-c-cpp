@@ -27,7 +27,7 @@ String: Every string has \0 in the end. A string is the array of characters.
         char *message3 = "Hello World";
         printf("%s", message3); // |H|e|l|l|o| |W|o|r|l|d|\0|
 
-        - Message3 is pointer to an array or characters
+        - Message3 is pointer to an array of characters
         - Content of message3 should not be changed
             - message3 point to a sequence of  locations that are "read-only" 
               portion of program that is executing
