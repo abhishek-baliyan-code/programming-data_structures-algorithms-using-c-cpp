@@ -1,10 +1,11 @@
 #include <stdio.h>
+int power(int, int);    // function prototype
 
 int main(void)
 {
-    // function declaration
-    int power(int base, int n);
-    
+    // // function declaration
+    // int power(int base, int n);
+
     int base = 10, n = 2, pow;
 
     pow = power(base, n);
