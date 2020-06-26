@@ -33,3 +33,11 @@ void insertionSort(int arr[], int length)
         }
     }
 }
+
+/*
+    Analysis
+
+Best Case = Ω(n)
+Worst Case = Θ(n^2)
+
+*/
